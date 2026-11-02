@@ -19,7 +19,7 @@
 
 ### 🌌 Sobre o Projeto
 
-Este repositório contém a simulação computacional desenvolvida para o estudo da dinâmica de sistemas binários de estrelas. Focada na resolução numérica das equações seculares de transferência de massa (Equações 25 e 26), a simulação demonstra como a perda de massa de uma estrela doadora altera o semieixo maior ($a$) e a excentricidade ($e$) da órbita ao longo de milhões de anos, utilizando a biblioteca `SciPy` e visualizações avançadas via `Matplotlib`.
+Este repositório contém a simulação computacional desenvolvida para o estudo da dinâmica de sistemas binários de estrelas. Focada na resolução numérica das equações seculares de transferência de massa, a simulação demonstra como a perda de massa de uma estrela doadora altera o semieixo maior ($a$) e a excentricidade ($e$) da órbita ao longo de milhões de anos, utilizando a biblioteca `SciPy` e visualizações avançadas via `Matplotlib`.
 
 ### 🧮 O Modelo Matemático
 
@@ -38,4 +38,16 @@ A simulação integra numericamente as taxas de variação secular dos parâmetr
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/AruDaguer/integrais-evolucao-orbital.git](https://github.com/AruDaguer/integrais-evolucao-orbital.git)
+   git clone https://github.com/AruDaguer/integrais-evolucao-orbital.git
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd integrais-evolucao-orbital
+
+3. Instale as dependências necessárias:
+   ```bash
+   pip install numpy matplotlib scipy
+
+4. Execute o script da simulação:
+   ```bash
+   python simulacao.py
